@@ -1,13 +1,9 @@
-import { Mail, Phone, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { profile } from "@/data/content";
 
-// Fixed: original tel: link was coded as "tel:+" with no digits after the
-// plus sign — visually showed the right number but the link itself was
-// dead. profile.phone now holds the full digit string used in the href.
 export default function Contact() {
   const links = [
     { icon: Mail, label: profile.email, href: `mailto:${profile.email}` },
-    { icon: Phone, label: profile.phoneDisplay, href: `tel:${profile.phone}` },
     { icon: Linkedin, label: "linkedin.com/in/nvvthakshith", href: profile.linkedin },
     { icon: Github, label: "github.com/Thakshithveera22", href: profile.github },
   ];

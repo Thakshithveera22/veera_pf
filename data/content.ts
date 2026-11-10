@@ -4,8 +4,6 @@ export const profile = {
   role: "Software & ML Engineer",
   location: "Columbia, Missouri",
   email: "thakshith.nvv@gmail.com",
-  phone: "+15715716586", // used for tel: link — digits only, no spaces/parens
-  phoneDisplay: "+1 (571) 571-6586",
   linkedin: "https://linkedin.com/in/nvvthakshith",
   github: "https://github.com/Thakshithveera22",
 };
